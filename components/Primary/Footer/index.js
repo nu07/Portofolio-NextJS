@@ -58,10 +58,10 @@ const navigation = [
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="feather feather-gitlab"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="feather feather-gitlab"
       >
         <path d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"></path>
       </svg>
@@ -81,7 +81,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 key={item.name}
                 href={item.href}
-                className="text-gray-400 hover:text-gray-500 dark:text-white"
+                className="text-gray-600 hover:text-gray-500 dark:text-white"
               >
                 <span className="sr-only dark:text-white">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -89,8 +89,8 @@ export default function Footer() {
             ))}
           </div>
           <div className="mt-8 md:mt-0 md:order-1">
-            <p className="text-center text-base text-gray-400 dark:text-white">
-              &copy; 2020 Workflow, Inc. All rights reserved.
+            <p className="text-center text-base text-gray-600 dark:text-white">
+              Wisnu Kristanto. 2023
             </p>
           </div>
         </div>
