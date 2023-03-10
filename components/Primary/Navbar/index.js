@@ -16,9 +16,11 @@ export default function Navbar() {
   useEffect(() => {
     if (theme == "dark") {
       setEnabled(true);
+      setTheme("dark")
       document.body.style.background = "#1E1D36";
     } else {
       document.body.style.background = "rgb(226 232 240)";
+      setTheme("light")
       setEnabled(false);
     }
   }, [theme]);
