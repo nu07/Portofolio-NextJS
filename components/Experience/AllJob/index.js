@@ -1,16 +1,34 @@
 const Data = [
   {
-    Title: "beIT Inovasi Tiwikrama",
-    tech: "VueJS, NuxtJS, ReactJS, NextJS, ExpressJS,MongoDB, Docker",
+    Title: "PT.beIT Inovasi Tiwikrama (FrontEnd)",
+    tech: "VueJS, NuxtJS, ReactJS, NextJS, ExpressJS,MongoDB, PHP, Docker",
     Deskripsi:
-      "Ac euismod vel sit maecenas id pellentesque eu sed, consectetur. Malesuada adipiscing sagittis vel nulla nec.",
+      "Membuat dan mengembangkan Aplikasi Milik Singapore Power, Switch US, SRN MNLHK, SRN PT.BAE, Sampoerna Academy.",
     Image: "/images/experience/logo_BeIT-white-hd.png",
   },
   {
     Title: "PT.Hadejun Simedic Indonesia",
-    tech: "ReactJS,Tailwind,MUI,Axios,Etc (FrontEnd)",
+    tech: "ReactJS,Tailwind,MUI,Axios,Etc (FrontEnd - Staff Programmer)",
     Deskripsi: "Mengembangkankan Aplikasi Milik PT.JasaMarga Persero (BUMN) Dan Simedic",
     Image: "/images/experience/hadejun.jpeg",
+  },
+  {
+    Title: "PT.Yutama Kreasiindo",
+    tech: "ReactJS,Bootstrap, CodeIgniter,MariaDB, Mongoose (Programmer)",
+    Deskripsi: "Mengembangkankan Aplikasi Milik PT.JasaMarga Persero (BUMN) Dan Simedic",
+    Image: "/images/experience/yutama.jpeg",
+  },
+  {
+    Title: "Eduwork.id",
+    tech: "MERN (MongoDB,ExpressJS,ReactJS, NodeJS)",
+    Deskripsi: "Internship",
+    Image: "/images/experience/eduwork.jpg",
+  },
+  {
+    Title: "Staff Tata Usaha Dan Guru TIK",
+    tech: "-",
+    Deskripsi: "Bekerja Sebagai Operator Tata Usaha Dan Guru Teknologi Informasi Dan Komunikasi (Komputer). Serta Maintance Berbagai Networking Serta Kebutuhan Sekolah.",
+    Image: "/images/experience/guru-tu.jpg",
   },
 ];
 
