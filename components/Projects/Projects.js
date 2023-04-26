@@ -88,6 +88,22 @@ const actions = [
     iconBackground: "bg-indigo-50",
   },
   {
+    title: "Luna Projects",
+    text:'Maintance Website Akuantan Malaysia.',
+    href: "#",
+    icon: "/images/JANM.jpg",
+    iconForeground: "text-indigo-700",
+    iconBackground: "bg-indigo-50",
+  },
+  {
+    title: "Kodiklatal Pusdiklek",
+    text:'Membuat Aplikasi Persuratan Untuk Kodiklatal Pusdiklek',
+    href: "#",
+    icon: "/images/pusdiklek.jpg",
+    iconForeground: "text-indigo-700",
+    iconBackground: "bg-indigo-50",
+  },
+  {
     title: "React Native VPN (Mobile)",
     text:'Membuat Aplikasi Virtual Network Untuk Mobile.',
     href: "#",
@@ -128,16 +144,16 @@ export default function Example() {
                   "rounded-lg inline-flex p-3 ring-4 ring-white"
                 )}
               >
-                <img src={action.icon} className="h-6 w-6" aria-hidden="true" />
+                <img src={action.icon} className="h-12 w-full " aria-hidden="true" />
               </span>
             </div>
             <div className="mt-8">
               <h3 className="text-lg font-medium dark:text-white">
-                <a href={action.href} className="focus:outline-none">
+                <div  className="focus:outline-none">
                   {/* Extend touch target to entire panel */}
                   <span className="absolute inset-0" aria-hidden="true" />
                   {action.title}
-                </a>
+                </div>
               </h3>
               <p className="mt-2 text-sm text-gray-500 dark:text-white">
                {action.text}

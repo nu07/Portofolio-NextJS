@@ -49,6 +49,27 @@ export default function LogoProjects() {
                 alt="ERP"
               />
             </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-cus-blue-100">
+              <img
+                className="max-h-12"
+                src="/images/projects/spgroup.png"
+                alt="Singapore Power"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-cus-blue-100">
+              <img
+                className="max-h-12"
+                src="/images/derune.png"
+                alt="Luna Projects"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-cus-blue-100">
+              <img
+                className="max-h-12"
+                src="/images/JANM.jpg"
+                alt="https://www.anm.gov.my/"
+              />
+            </div>
           </div>
         </div>
       </div>
