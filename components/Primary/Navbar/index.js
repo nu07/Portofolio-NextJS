@@ -143,7 +143,7 @@ export default function Navbar() {
                 Skill
               </Disclosure.Button>
             </div>
-            <div className="pt-4 pb-3 border-t border-gray-200">
+            <div className="pt-4 pb-3 border-t border-black">
               <div className="flex items-center px-4">
                 <div className="ml-0">
                   <div className="text-base font-medium text-gray-800 dark:text-white">
@@ -173,29 +173,6 @@ export default function Navbar() {
                     />
                   </Switch>
                 </div>
-              </div>
-              <div className="mt-3 space-y-1">
-                <Disclosure.Button
-                  as="a"
-                  href="#"
-                  className="block px-4 py-2 text-base font-medium text-gray-500 hover:text-gray-800 hover:bg-gray-100 dark:text-white"
-                >
-                  Your Profile
-                </Disclosure.Button>
-                <Disclosure.Button
-                  as="a"
-                  href="#"
-                  className="block px-4 py-2 text-base font-medium text-gray-500 hover:text-gray-800 hover:bg-gray-100 dark:text-white"
-                >
-                  Settings
-                </Disclosure.Button>
-                <Disclosure.Button
-                  as="a"
-                  href="#"
-                  className="block px-4 py-2 text-base font-medium text-gray-500 hover:text-gray-800 hover:bg-gray-100 dark:text-white"
-                >
-                  Sign out
-                </Disclosure.Button>
               </div>
             </div>
           </Disclosure.Panel>
