@@ -11,11 +11,11 @@ const profile = {
 
 export default function Heading() {
   return (
-    <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 dark:bg-cus-blue'>
+    <div className=' max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 dark:bg-cus-blue'>
 
-    <div className=''>
+    <div className='aspect-w-16 aspect-h-auto '>
       <div>
-        <img className="h-32 w-full object-cover lg:h-48  " src={profile.backgroundImage} alt="" />
+        <img className=" md:h-32 w-full object-cover lg:h-48  " src={profile.backgroundImage} alt="" />
       </div>
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="-mt-12 sm:-mt-16 sm:flex sm:items-end sm:space-x-5">
