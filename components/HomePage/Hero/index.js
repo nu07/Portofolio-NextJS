@@ -56,7 +56,8 @@ export default function Hero() {
               </dt>
               <dd className="mt-1 text-sm text-gray-900 dark:text-white">
                 Saya Seorang Fullstack Javascript, Fokus saya dibidang ini
-                adalah MERN. MongoDB, Express JS, React JS, NodeJS.
+                adalah MERN. MongoDB, Express JS, React JS, Next JS, VueJS,
+                NuxtJS NodeJS, TypeScript.
               </dd>
             </div>
             <div className="sm:col-span-2">
@@ -88,7 +89,6 @@ export default function Hero() {
                       </a>
                     </div>
                   </li>
-                  
                 </ul>
               </dd>
             </div>
