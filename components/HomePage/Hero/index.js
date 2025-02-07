@@ -1,4 +1,5 @@
 import { PaperClipIcon } from "@heroicons/react/solid";
+import Link from "next/link";
 
 export default function Hero() {
   const getAge = (birthDate) =>
@@ -52,12 +53,30 @@ export default function Hero() {
             </div>
             <div className="sm:col-span-2">
               <dt className="text-sm font-medium text-gray-500 dark:text-white">
+                Github
+              </dt>
+              <Link
+                href="https://github.com/nu07"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1 text-sm text-blue-600 dark:text-white dark:underline hover:underline"
+              >
+                Here
+              </Link>
+            </div>
+            <div className="sm:col-span-2">
+              <dt className="text-sm font-medium text-gray-500 dark:text-white">
                 About
               </dt>
               <dd className="mt-1 text-sm text-gray-900 dark:text-white">
-                Saya Seorang Fullstack Javascript, Fokus saya dibidang ini
-                adalah MERN. MongoDB, Express JS, React JS, Next JS, VueJS,
-                NuxtJS NodeJS, TypeScript.
+                Saya Seorang Fullstack Javascript dan TypeScript Dev, Fokus saya
+                Dibidang Ini Adalah MERN. MongoDB, Express JS, React JS, Next
+                JS, VueJS, NuxtJS NodeJS, TypeScript. Namun Saya tidak terbatas
+                pada stack ini. Sayapun aktiv pada komunitas seperti Kelas
+                Terbuka (Community Leader), WPU (Web Programing Unpas). Sayapun
+                seorang Maintainer pada Komunitas Bellshade (Github) Atau
+                Komunitas untuk mengelola dan menulis kode untuk proyek
+                pendidikan sumber terbuka Indonesia.
               </dd>
             </div>
             <div className="sm:col-span-2">
