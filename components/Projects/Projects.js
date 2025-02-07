@@ -1,26 +1,3 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  const colors = require('tailwindcss/colors')
-  
-  module.exports = {
-    // ...
-    theme: {
-      extend: {
-        colors: {
-          sky: colors.sky,
-          teal: colors.teal,
-          rose: colors.rose,
-        },
-      },
-    },
-  }
-  ```
-*/
 import {
   AcademicCapIcon,
   BadgeCheckIcon,
@@ -32,8 +9,40 @@ import {
 
 const actions = [
   {
-    title: "ERP SignaBit",
-    text:'Mengembangkan ERP Signal Bit',
+    title: "FPL Next Energy Florida",
+    text: "Membuat Aplikasi Untuk Memantau Berbagai Macam Sensor. Untuk Berbagai Lokasi Di Florida (US). Aplikasi Di Kembangkan Untuk Device Desktop Dan Layar Monitor Besar (4K). Serta Membuat Limitasi Jika Devices (Sensor) Tidak Normal. ",
+    href: "#",
+    icon: "/images/projects/fpl.png",
+    iconForeground: "text-teal-700",
+    iconBackground: "bg-teal-50",
+  },
+  {
+    title: "BELL Wireless, Internet and TV Service Provider In Canada",
+    text: "Maintance Report Serta Perbaikan. Penambahan Fitur Report, Validasi Data. Bug Fixing Data Untuk Client. ",
+    href: "#",
+    icon: "/images/projects/bell.png",
+    iconForeground: "text-teal-700",
+    iconBackground: "bg-teal-50",
+  },
+  {
+    title: "NTT: Dimension Data",
+    text: "Maintance Report, Penambahan Fitur, Serta Menambahkan Data Yang Sesuai Dari Perusahaan Untuk Client.",
+    href: "#",
+    icon: "/images/projects/ntt.png",
+    iconForeground: "text-teal-700",
+    iconBackground: "bg-teal-50",
+  },
+  {
+    title: "KKP: Project Nasional",
+    text: "Pembuatan Website MRV KKP. Aplikasi Digunakan Untuk Memantau Rehabilitasi Seperti Lamun,dll. Serta Membuat Fitur Input, Output Untuk Administrasi User Dari KKP.",
+    href: "#",
+    icon: "/images/projects/kkp.jpg",
+    iconForeground: "text-teal-700",
+    iconBackground: "bg-teal-50",
+  },
+  {
+    title: "ERP Signal Bit",
+    text: "Mengembangkan ERP Signal Bit",
     href: "#",
     icon: "/images/projects/erp.png",
     iconForeground: "text-teal-700",
@@ -41,7 +50,7 @@ const actions = [
   },
   {
     title: "Switch US",
-    text:'Mengembangkan Dan Menambahkan Fitur Sensor.',
+    text: "Mengembangkan Dan Menambahkan Fitur Sensor.",
     href: "#",
     icon: "/images/projects/switch.png",
     iconForeground: "text-purple-700",
@@ -49,7 +58,7 @@ const actions = [
   },
   {
     title: "Singapore Power",
-    text:'Mengembangkan Dan Menambahkan Fitur Sensor.',
+    text: "Mengembangkan Dan Menambahkan Report Sensor.",
     href: "#",
     icon: "/images/projects/spgroup.png",
     iconForeground: "text-sky-700",
@@ -57,7 +66,7 @@ const actions = [
   },
   {
     title: "SRN MNLHK",
-    text:'Mengembangkan Dan Membuat Design Terbaru Untuk Web Pemerintahan. Terutama Bagian PTBAE-PU (Persetujuan Teknis Batas Atas Emisi)',
+    text: "Mengembangkan Dan Membuat Design Terbaru Untuk Web Pemerintahan. Terutama Bagian PTBAE-PU (Persetujuan Teknis Batas Atas Emisi)",
     href: "#",
     icon: "/images/projects/srnklhk.png",
     iconForeground: "text-yellow-700",
@@ -65,7 +74,7 @@ const actions = [
   },
   {
     title: "Sampoerna Academy",
-    text:'Membuat Web Perpustakaan Sampoerna Academy Menggunakan Angular.',
+    text: "Membuat Web Perpustakaan Sampoerna Academy Menggunakan Angular Typescript.",
     href: "#",
     icon: "/images/projects/sampoernaAcademy.png",
     iconForeground: "text-yellow-700",
@@ -73,7 +82,7 @@ const actions = [
   },
   {
     title: "JM-Click",
-    text:'Mengembangkan Serta Menambahkan Fitur E-Learning Beserta Sub-Modul, Learning Point, Role,Dll Milih JasaMarga Persero (BUMN).',
+    text: "Mengembangkan Serta Menambahkan Fitur E-Learning Beserta Sub-Modul, Learning Point, Role, Training, Digital Learning, Content Creator, Exposure & Coacing,dll. Milik Jasa Marga Persero (BUMN).",
     href: "#",
     icon: "/images/projects/jmclick.png",
     iconForeground: "text-rose-700",
@@ -81,7 +90,7 @@ const actions = [
   },
   {
     title: "Novo Nordisk",
-    text:'Mengembangkan/Membuat Aplikasi Sensor Kelistrikan.',
+    text: "Membuat Serta Mengembangkan Aplikasi Report Sensor Dari Rack Server.",
     href: "#",
     icon: "/images/projects/novonordisk.png",
     iconForeground: "text-indigo-700",
@@ -89,7 +98,7 @@ const actions = [
   },
   {
     title: "JANM",
-    text:'Maintance Website Akuantan Malaysia.',
+    text: "Maintance Serta Penambahan Fitur Sensor Dan Perhitungan Dari Akuantan Malaysia.",
     href: "#",
     icon: "/images/JANM.jpg",
     iconForeground: "text-indigo-700",
@@ -97,7 +106,7 @@ const actions = [
   },
   {
     title: "Kodiklatal Pusdiklek",
-    text:'Membuat Aplikasi Persuratan Untuk Kodiklatal Pusdiklek',
+    text: "Membuat Aplikasi Persuratan Untuk Kodiklatal Pusdiklek",
     href: "#",
     icon: "/images/pusdiklek.jpg",
     iconForeground: "text-indigo-700",
@@ -105,7 +114,7 @@ const actions = [
   },
   {
     title: "React Native VPN (Mobile)",
-    text:'Membuat Aplikasi Virtual Network Untuk Mobile.',
+    text: "Membuat Aplikasi Virtual Network Untuk Mobile.",
     href: "#",
     icon: "/images/react.png",
     iconForeground: "text-indigo-700",
@@ -144,19 +153,23 @@ export default function Example() {
                   "rounded-lg inline-flex p-3 ring-4 ring-white"
                 )}
               >
-                <img src={action.icon} className="h-12 w-full " aria-hidden="true" />
+                <img
+                  src={action.icon}
+                  className="h-12 w-full "
+                  aria-hidden="true"
+                />
               </span>
             </div>
             <div className="mt-8">
               <h3 className="text-lg font-medium dark:text-white">
-                <div  className="focus:outline-none">
+                <div className="focus:outline-none">
                   {/* Extend touch target to entire panel */}
                   <span className="absolute inset-0" aria-hidden="true" />
                   {action.title}
                 </div>
               </h3>
               <p className="mt-2 text-sm text-gray-500 dark:text-white">
-               {action.text}
+                {action.text}
               </p>
             </div>
             {/* <span
