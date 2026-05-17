@@ -9,6 +9,22 @@ import {
 
 const actions = [
   {
+    title: "TMNXERA",
+    text: "Aplikasi Dashboard Untuk Memantau Berbagai Macam Sensor Dari Rack Server. Serta Membuat Report Untuk Client. Juga Melakukan Assign Document Ke Role Atau Client Tertentu",
+    href: "#",
+    icon: "/images/projects/tmnexra.png",
+    iconForeground: "text-teal-700",
+    iconBackground: "bg-teal-50",
+  },
+  {
+    title: "BW Digital",
+    text: "Aplikasi Services Management Untuk Memantau Alarm Dari Sensor. Serta Membuat Report Untuk Client. Juga Melakukan Assign Document Ke Role Atau Client Tertentu",
+    href: "#",
+    icon: "/images/projects/bw-digital.png",
+    iconForeground: "text-teal-700",
+    iconBackground: "bg-teal-50",
+  },
+  {
     title: "FPL Next Energy Florida",
     text: "Membuat Aplikasi Untuk Memantau Berbagai Macam Sensor. Untuk Berbagai Lokasi Di Florida (US). Aplikasi Di Kembangkan Untuk Device Desktop Dan Layar Monitor Besar (4K). Serta Membuat Limitasi Jika Devices (Sensor) Tidak Normal. ",
     href: "#",
