@@ -10,8 +10,29 @@ export default function LogoProjects() {
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-cus-blue-100">
               <img
                 className="max-h-12 "
+                src="/images/projects/tmnexra.png"
+                alt="TMNXERA"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-cus-blue-100">
+              <img
+                className="max-h-12 "
+                src="/images/projects/bw-digital.png"
+                alt="BW Digital"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-cus-blue-100">
+              <img
+                className="max-h-12 "
                 src="/images/projects/fpl.png"
                 alt="FPL Next Energy"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-cus-blue-100">
+              <img
+                className="max-h-12 "
+                src="/images/projects/se.png"
+                alt="Schneider Electric"
               />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-cus-blue-100">
