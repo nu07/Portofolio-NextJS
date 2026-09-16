@@ -1,6 +1,6 @@
 services:
   app:
-    container_name: kelbuk-next-apps
+    container_name: wisnu-next-apps
     image: config-app:latest
     build:
       context: ../
@@ -19,7 +19,7 @@ services:
     restart: on-failure:1000
 
   nginx:
-    container_name: kelbuk-next-nginx-proxy
+    container_name: wisnu-next-nginx-proxy
     image: config-nginx:latest
     build:
       context: ../
@@ -35,7 +35,7 @@ services:
     restart: unless-stopped
 
   cloudflared:
-    container_name: kelbuk-cloudflared-tunnel
+    container_name: wisnu-cloudflared-tunnel
     image: cloudflare/cloudflared:latest
     command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TUNNEL_TOKEN}
     networks:
