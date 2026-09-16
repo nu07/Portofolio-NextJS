@@ -4,7 +4,7 @@ services:
     image: config-app:latest
     build:
       context: ../
-      dockerfile: config/Dockerfile.prod
+      dockerfile: Dockerfile.prod
     command: npm run start
     cpus: "1.5"
     mem_limit: 1g
