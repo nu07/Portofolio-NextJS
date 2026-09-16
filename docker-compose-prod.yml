@@ -1,0 +1,49 @@
+services:
+  app:
+    container_name: kelbuk-next-apps
+    image: config-app:latest
+    build:
+      context: ../
+      dockerfile: config/Dockerfile.prod
+    command: npm run start
+    cpus: "1.5"
+    mem_limit: 1g
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      HOST: 0.0.0.0
+    expose:
+      - "3000"
+    networks:
+      - wisnu-core
+    restart: on-failure:1000
+
+  nginx:
+    container_name: kelbuk-next-nginx-proxy
+    image: config-nginx:latest
+    build:
+      context: ../
+      dockerfile: config/Dockerfile.nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"
+    depends_on:
+      - app
+    networks:
+      - wisnu-core
+    restart: unless-stopped
+
+  cloudflared:
+    container_name: kelbuk-cloudflared-tunnel
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TUNNEL_TOKEN}
+    networks:
+      - wisnu-core
+    depends_on:
+      - nginx
+    restart: unless-stopped
+
+networks:
+  wisnu-core:
+    driver: bridge
